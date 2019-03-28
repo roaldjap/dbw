@@ -1,0 +1,85 @@
+.bg-primary {
+    background-color: #ff4d94 !important;
+}
+body {
+    background-image: url("https://static1.squarespace.com/static/5b4c17ec297114eff4894b05/t/5c60f35153450a883a2957de/1549857622600/done+by+wednesday+website+header+1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.text-logo{
+    display: inline-block !important;
+}
+
+h1 {
+    font-weight: 300;
+    font-style: normal;
+    line-height: .9em;
+    text-transform: none 
+}
+#window {
+    height: 50vh;
+}
+#bottom {
+    padding: 100px;
+    background: white 
+}
+h2 {
+    font-weight: 300;
+    font-style: normal;
+    line-height: .9em;
+    text-transform: none;
+}
+#bottom1 {
+    padding-top: 50px;
+}
+#menu {
+    background: 2be7f5d;
+}
+.footer_link {
+    color: #000000;
+    text-decoration: none !important;
+}
+.footer_link:hover{
+    color:ff4d94;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.footer-bottom a{
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .text-logo{
+        display: none !important;
+    }
+ }
+
+@media (max-width: 740px) {
+    
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .footer-base{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
