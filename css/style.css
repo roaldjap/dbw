@@ -145,6 +145,14 @@ h2 {
     .text-logo{
         display: none !important;
     }
+
+    .footer-column{
+        margin-bottom: 15px;
+    }
+
+    .content, .footer-wrapper{
+        padding: 40px;
+    }
  }
 
 @media (max-width: 740px) {
