@@ -142,6 +142,13 @@ h2 {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+
+    .body{
+        background-attachment: initial;
+        background-size: 198%;
+        background-position: top center;
+    }
+    
     .text-logo{
         display: none !important;
     }
