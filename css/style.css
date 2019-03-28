@@ -1,11 +1,47 @@
 .bg-primary {
     background-color: #ff4d94 !important;
 }
+
+
 body {
     background-image: url("https://static1.squarespace.com/static/5b4c17ec297114eff4894b05/t/5c60f35153450a883a2957de/1549857622600/done+by+wednesday+website+header+1.jpg");
     background-attachment: fixed;
     background-size: cover;
+    font-family: Rubik, sans-serif;
 
+}
+
+.navbar a.btn:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.content-wrapper{
+    background: #fff;
+}
+
+.content{
+    padding: 100px;
+}
+
+.content .centered-headline{
+    margin-bottom: 1.2em;
+    margin-top: 1em;
+    line-height: 1.2em;
+}
+
+.thumbnail{
+    margin-bottom: 2em;
+}
+
+
+#bottom1 {
+    padding-top: 50px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
 }
 
 .text-logo{
@@ -21,22 +57,29 @@ h1 {
 #window {
     height: 50vh;
 }
-#bottom {
-    padding: 100px;
-    background: white 
-}
+
 h2 {
     font-weight: 300;
     font-style: normal;
     line-height: .9em;
     text-transform: none;
 }
-#bottom1 {
-    padding-top: 50px;
-}
+
 #menu {
     background: 2be7f5d;
 }
+
+.copyright{
+    margin-top: 50px;
+}
+
+.footer-wrapper{
+    background: #292929;
+    padding: 100px;
+    padding-top: 50px;
+    color: #fff;
+}
+
 .footer_link {
     color: #000000;
     text-decoration: none !important;
@@ -48,10 +91,53 @@ h2 {
     color: #fff;
 }
 
-.footer-bottom a{
+.footer-bottom a, .footer-bottom a:visited{
   font-size: 12px;
   text-align: left;
   letter-spacing: 1px;
+  color: #fff;
+}
+
+.line-design{
+    height: 10px;
+    width: 100px;
+    margin: 30px 0;
+    background: #ff4d94;
+    display: block;
+}
+
+.footer-logo-black{
+    background: #fff;
+    width: 55px;
+    margin-bottom: -40px;
+}
+
+.copyright .white-bg{
+    margin-top: 30px;
+}
+
+.footer-bottom a:hover{
+    color: #ff4d94;
+}
+
+.loginbox{
+    float: none;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 50px 0;
+    background: #fff;
+    border-top: 15px solid #ff4d94;
+    -webkit-box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 21px -8px rgba(0,0,0,0.75);
+}
+
+.login-logo{
+    width: 130px;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */

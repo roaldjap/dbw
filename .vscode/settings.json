@@ -1,0 +1,5 @@
+{
+    "editor.tabSize": 2,
+    "open-in-browser.default": "chrome",
+    "html-css-class-completion.enableEmmetSupport": true
+}

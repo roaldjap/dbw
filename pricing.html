@@ -1,95 +1,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>donebywednesday</title>
-
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-
-    <style>
-      .bg-primary {
-        background-color: #ff4d94 !important;
-      }
-      .navbar-light .navbar-nav .active > .nav-link,
-      .navbar-light .navbar-nav .nav-link.active,
-      .navbar-light .navbar-nav .nav-link.show,
-      .navbar-light .navbar-nav .show > .nav-link {
-        color: #fff;
-      }
-      h2 {
-        font-weight: 300;
-        padding: 20px;
-        font-size: 50px;
-      }
-    </style>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <title>Done By Wednesday - Customised Notebooks</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans">
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/pricing.css">
   </head>
-
   <body>
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
-      <div id="menu" class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="http://static1.squarespace.com/static/5b4c17ec297114eff4894b05/t/5b5bbf4d88251bab88568a41/1550793505425/?format=1500w"
-            width="100"
-            height="100"
-          />
-          Done By Wednesday
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item ">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active " href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">Contact</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <button
-              class="btn btn-outline-dark my-2 my-sm-0"
-              style="margin-right: 5px"
-              type="submit"
-            >
-              Signup
-            </button>
-            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
-              Login
-            </button>
-          </form>
+        <div class="container-fluid" id="menu">
+          <a class="navbar-brand" href="index.html">
+            <img class="logo" src="http://static1.squarespace.com/static/5b4c17ec297114eff4894b05/t/5b5bbf4d88251bab88568a41/1550793505425/?format=1500w"/>
+            <span class="d-none d-sm-block text-logo">Done By Wednesday</span></a>
+          <button class="navbar-toggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarTogglerDemo02" data-toggle="collapse" type="button" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" > Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-dark my-2 my-sm-0" style="margin-right: 5px" type="submit">
+                Signup
+              </button>
+              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+                Login
+              </button>
+            </form>
+          </div>
         </div>
+      </nav>
+      <!-- END : Navigation -->
+
+      <!-- Content -->
+      <div class="content-wrapper">
+          <div class="container content">
+              <h2>Pick Your Notebook Size Then Your Quantity</h2>
+          </div>
       </div>
-    </nav>
-    <div class="container">
-      <h2>pick your notebook size then your quantity</h2>
-    </div>
+      <!-- END : Content -->
+    
   </body>
 </html>
