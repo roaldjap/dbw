@@ -1,77 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="Stylesheet" href="Register.css" />
-    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans">
-    <title>Bootstrap Elegant Sign Up Form</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    />
-    
-    <link rel="stylesheet" href="css/style.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
-  
-  <body>
-    <div class="signup-form">
-      <form action="/examples/actions/confirmation.php" method="post">
-        <h2>Sign Up</h2>
-        <div class="form-group">
-          <input
-            type="text"
-            class="form-control"
-            name="username"
-            placeholder="Username"
-            required="required"
-          />
+<html>
+<head>
+  <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <title>Done By Wednesday - Customised Notebooks</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rubik:300,400,700,700i,300i,400i,500"> -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col col-sm-12 col-md-6 offset-md-3">
+        <div class="signup-form">
+            <a href="index.html">
+              <img class="login-logo img-responsive" src="http://static1.squarespace.com/static/5b4c17ec297114eff4894b05/t/5b5bbf4d88251bab88568a41/1550793505425/?format=1500w" class="img" />
+            </a>
+            <h1>Sign Up</h1>
+            <br>
+            <form action="/examples/actions/confirmation.php" method="post">
+              <div class="form-group">
+                <input type="text" class="form-control" name="username" placeholder="Username" required="required" />
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email Address" required="required"/>
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password" required="required" />
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required" />
+              </div>
+              <div class="form-group">
+                <label class="checkbox-inline" ><input type="checkbox" required="required" /> I accept the
+                  <a href="#">Terms of Use</a> &amp;
+                  <a href="#">Privacy Policy</a></label
+                >
+              </div>
+              <div class="form-group">
+                  <button type="submit" class="btn btn-block btn-primary btn-lg">Sign Up</button>
+              </div>
+              Already Have an Account?<a href="login.html"> Login Here</a>
+              <br />
+              <a href="index.html"> &larr; Back to Home</a>
+            </form>
         </div>
-        <div class="form-group">
-          <input
-            type="email"
-            class="form-control"
-            name="email"
-            placeholder="Email Address"
-            required="required"
-          />
         </div>
-        <div class="form-group">
-          <input
-            type="password"
-            class="form-control"
-            name="password"
-            placeholder="Password"
-            required="required"
-          />
-        </div>
-        <div class="form-group">
-          <input
-            type="password"
-            class="form-control"
-            name="confirm_password"
-            placeholder="Confirm Password"
-            required="required"
-          />
-        </div>
-        <div class="form-group">
-          <label class="checkbox-inline"
-            ><input type="checkbox" required="required" /> I accept the
-            <a href="#">Terms of Use</a> &amp;
-            <a href="#">Privacy Policy</a></label
-          >
-        </div>
-        <div class="form-group">
-          <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
-        </div>
-      </form>
-      <div class="text-center">
-        Already have an account? <a href="#">Login here</a>
       </div>
     </div>
-  </body>
+  
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- END: Javascript -->  
+</body>
 </html>
